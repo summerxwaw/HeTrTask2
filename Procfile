@@ -1,1 +1,1 @@
-web:java index.jsp
+web: java $JAVA_OPTS -jar target/dependenmcy/webapp-runner.jar --port $PORT target/*.war
