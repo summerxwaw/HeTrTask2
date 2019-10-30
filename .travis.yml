@@ -6,4 +6,8 @@ java:
 
 branches:
   only:
+<<<<<<< HEAD
     - master
+=======
+    - master
+>>>>>>> 7ac3d87b5451619ef843c907d6029590dbb07c09
