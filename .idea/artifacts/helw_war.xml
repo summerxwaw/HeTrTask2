@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="helw:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/helw_war</output-path>
+    <root id="archive" name="helw_war.war">
+      <element id="artifact" artifact-name="helw:war exploded" />
+    </root>
+  </artifact>
+</component>
