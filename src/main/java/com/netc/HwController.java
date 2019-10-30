@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HwController {
-    @GetMapping( "/springmvcexample_war/" )
+    @GetMapping( "/" )
     public String welcomePage(Model model) {
         model.addAttribute("hello", "HELLO WORLD");
         return "index";
