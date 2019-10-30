@@ -1,1 +1,1 @@
-web: java -jar target/dependenmcy/webapp-runner.jar
+web: java -jar target/dependency/webapp-runner.jar
