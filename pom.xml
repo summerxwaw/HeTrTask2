@@ -117,6 +117,7 @@
     </dependencies>
 
 
+
     <build>
         <finalName>SpringMVCJdbcTransaction</finalName>
         <plugins>
@@ -125,24 +126,17 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
 
-            </plugin><plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-                <source>7</source>
-                <target>7</target>
-            </configuration>
-        </plugin>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.3</version>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
-                            <goal>copy</goal>
-                        </goals>
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
