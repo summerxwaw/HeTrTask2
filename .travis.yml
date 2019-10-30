@@ -1,13 +1,9 @@
 sudo: false
 
-language: java
-java:
-  - 12.0.2
+language: node_js
+node_js:
+  - 9
 
 branches:
   only:
-<<<<<<< HEAD
     - master
-=======
-    - master
->>>>>>> 7ac3d87b5451619ef843c907d6029590dbb07c09
